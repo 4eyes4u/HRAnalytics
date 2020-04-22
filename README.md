@@ -4,7 +4,7 @@ A large company named XYZ, employs, at any given point of time, around 4000 empl
 
 ## Running
 1. Install Conda environemnt with the given `environment.yml`.
-2. Run `main.py`.
+2. Run either `main_woe.py` or `main_dummy.py`.
 
 ## Data
 Data set is located in `data/input` while logs and results will be stored in `data/output`.
