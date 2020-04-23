@@ -27,7 +27,7 @@ params = {
     "val_test_size": 0.5,  # val/test size ratio
     "n_jobs": 12,  # number of jobs to run in parallel for Bayes search
     "n_iters": 100,  # number of iterations of Bayes search
-    "base_estimator": "RF"  # random forest esimator for Bayes search
+    "base_estimator": "GP"  # random forest esimator for Bayes search
 }
 
 
