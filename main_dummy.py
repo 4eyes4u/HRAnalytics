@@ -75,7 +75,8 @@ if __name__ == "__main__":
 
     # mapping target class in binary value and removing from training data
     y = data["Attrition"].replace({"Yes": 1, "No": 0})
-    X = data.drop(labels="Attrition", axis=1)
+    labels_to_drop = ["Attrition", "Over18", "StandardHours", "EmployeeCount"]
+    X = data.drop(labels=labels_to_drop, axis=1)
     X = create_dummies(X)
 
     # splitting data in train/val/test sets
